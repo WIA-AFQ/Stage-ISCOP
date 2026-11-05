@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Stage-ISCOP – Site Web Institutionnel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Présentation du projet
 
-## Available Scripts
+Stage-ISCOP est un projet réalisé dans le cadre de mon stage au sein d'un centre situé à Meknès.
 
-In the project directory, you can run:
+L'objectif était de concevoir et développer un site web moderne pour présenter le centre, ses formations et ses différentes activités, tout en proposant un espace d'administration.
 
-### `npm start`
+## Technologies utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend :** React.js, CSS
+- **Backend :** Laravel, PHP
+- **Base de données :** MySQL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Fonctionnalités
 
-### `npm test`
+- **Accueil :** Présentation générale du site.
+- **Présentation du centre :** Informations sur le centre.
+- **Formations :** Présentation des formations proposées.
+- **Galerie :** Affichage des photos du centre.
+- **Contact :** Informations et formulaire de contact.
+- **Espace Admin :** Interface d'administration du site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Structure du projet
 
-### `npm run build`
+- `frontend/` : Application React.
+- `backend/` : Application Laravel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Objectif
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Développer un site web professionnel, responsive et facile à utiliser, permettant au centre de présenter ses services et ses formations sur Internet.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Type de projet
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projet réalisé dans le cadre d'un stage professionnel.

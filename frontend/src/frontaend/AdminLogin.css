@@ -1,0 +1,110 @@
+/* PAGE LOGIN */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f9fc; /* أبيض فاتح / لون مريح للعين */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* CONTAINER DU FORMULAIRE AVEC GLASS EFFECT */
+.login-box {
+  background: rgba(255, 255, 255, 0.9); /* أبيض شفاف قليلا */
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15); /* ظل أفتح */
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+}
+
+/* TITRE */
+.login-box h2 {
+  color: #333; /* نص غامق على الأبيض */
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+/* MESSAGE ERREUR */
+.error {
+  background: #ff4c4c;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* INPUTS */
+.login-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #fff;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.login-box input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 8px #38bdf8;
+  transform: scale(1.02);
+}
+
+/* BOUTON LOGIN */
+.login-box button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s;
+}
+
+.login-box button:hover {
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* LIEN RETOUR (OPTIONNEL) */
+.back-link {
+  display: block;
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.back-link:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}

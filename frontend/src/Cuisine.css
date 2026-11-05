@@ -1,0 +1,152 @@
+/* ================== HERO ================== */
+.cuisine-hero {
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.cuisine-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.25));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: #ffffff;
+}
+
+.cuisine-overlay h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.cuisine-overlay p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* ================== SECTIONS ================== */
+.cuisine-about,
+.cuisine-programme,
+.cuisine-contact {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.cuisine-about h2,
+.cuisine-programme h2,
+.cuisine-contact h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #283a64;
+}
+
+/* ================== OPTIONS ================== */
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.option-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.option-card:hover {
+  transform: translateY(-8px);
+}
+
+.option-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.option-card h3 {
+  color: #1f3261;
+  margin-bottom: 10px;
+}
+
+/* ================== PROGRAMME ================== */
+.programme-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.programme-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.programme-card:hover {
+  transform: translateY(-8px);
+}
+
+.programme-card h3 {
+  margin-bottom: 15px;
+  color: #1f3261;
+}
+
+/* ================== BUTTON ================== */
+.cuisine-contact {
+  text-align: center;
+}
+
+.btn-inscription {
+  margin-top: 25px;
+  padding: 14px 35px;
+  background: white;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-inscription:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+/* FOOTER */
+.footer {
+  background:white;
+  color:rgb(0, 0, 0);
+  padding:50px 10%;
+  text-align:center;
+}
+
+.footer-content p { margin:5px 0; }
+
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 768px) {
+  .cuisine-hero {
+    height: 420px;
+  }
+
+  .cuisine-overlay {
+    padding: 40px 25px;
+  }
+
+  .cuisine-overlay h1 {
+    font-size: 34px;
+  }
+}

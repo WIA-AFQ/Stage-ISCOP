@@ -1,0 +1,151 @@
+/* ================== HERO ================== */
+.logistique-hero {
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.logistique-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.25));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: #ffffff;
+}
+
+.logistique-overlay h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.logistique-overlay h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.logistique-overlay p {
+  font-size: 20px;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+/* ================== FORMATIONS ================== */
+.logistique-formations {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logistique-formations h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #1f567d;
+}
+
+.formations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.formation-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.formation-card:hover {
+  transform: translateY(-8px);
+}
+
+.formation-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.formation-card h3 {
+  color: #1f567d;
+  font-size: 18px;
+}
+
+/* ================== AVANTAGES ================== */
+.logistique-avantages {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logistique-avantages h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1f567d;
+}
+
+.logistique-avantages ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #374151;
+}
+
+/* ================== CONTACT ================== */
+/* FOOTER */
+.footer {
+  background:white;
+  color:rgb(0, 0, 0);
+  padding:50px 10%;
+  text-align:center;
+}
+
+.footer-content p { margin:5px 0; }
+
+
+.btn-inscription {
+  margin-top: 25px;
+  padding: 14px 35px;
+  background: linear-gradient(135deg, #1f567d, #163f5c);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-inscription:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 768px) {
+  .logistique-hero {
+    height: 420px;
+  }
+
+  .logistique-overlay {
+    padding: 40px 25px;
+  }
+
+  .logistique-overlay h1 {
+    font-size: 28px;
+  }
+
+  .logistique-overlay h2 {
+    font-size: 24px;
+  }
+}

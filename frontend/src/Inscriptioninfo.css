@@ -1,0 +1,90 @@
+.inscription-page{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:90vh;
+background:#f1f5f9;
+padding:40px;
+}
+.inscription-container{
+  display:flex;
+  width:900px;
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 15px 35px rgba(0,0,0,0.1);
+
+}
+.btn-secondary:hover{
+background-color: #122846;
+color:white;
+}
+.inscription-form{
+  width:50%;
+  padding:40px;
+}
+.inscription-image{
+  width:50%;
+  background-image:url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+  background-size:cover;
+  background-position:center;
+}
+
+.inscription-form h2{
+margin-bottom:20px;
+color:#1e293b;
+}
+
+.inscription-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.inscription-form input,
+.inscription-form select,
+.inscription-form textarea{
+padding:12px;
+border-radius:6px;
+border:1px solid #ccc;
+font-size:14px;
+transition:0.3s;
+}
+
+.inscription-form input:focus,
+.inscription-form select:focus,
+.inscription-form textarea:focus{
+border-color:#38bdf8;
+outline:none;
+}
+
+.inscription-form textarea{
+height:80px;
+resize:none;
+}
+.inscription-form button{
+background:#38bdf8;
+color:white;
+border:none;
+padding:12px;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.inscription-form button:hover{
+background:#0ea5e9;
+}
+.success-msg{
+background:#d1fae5;
+color:#065f46;
+padding:15px;
+border-radius:6px;
+}
+.inscription-image{
+width:50%;
+background-image:url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+background-size:cover;
+background-position:center;
+}

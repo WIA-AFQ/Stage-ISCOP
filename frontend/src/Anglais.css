@@ -1,0 +1,90 @@
+/* HERO */
+
+.langue-hero {
+  height: 40vh;
+  background: linear-gradient(135deg, #243653, #1b2942);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.langue-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* CONTENT */
+
+.langue-content {
+  padding: 80px 10%;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+}
+
+.langue-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.langue-box h2 {
+  margin-bottom: 20px;
+  color: #243653;
+}
+
+.langue-box h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #243653;
+}
+
+.langue-box p {
+  margin-bottom: 10px;
+}
+
+.langue-box ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.langue-box li {
+  margin-bottom: 8px;
+}
+
+/* BUTTON */
+
+.btn-inscrire {
+  padding: 12px 30px;
+  background: #243653;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.btn-inscrire:hover {
+  background: #1b2942;
+  transform: translateY(-3px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .langue-hero h1 {
+    font-size: 26px;
+  }
+
+  .langue-box {
+    padding: 25px;
+  }
+}

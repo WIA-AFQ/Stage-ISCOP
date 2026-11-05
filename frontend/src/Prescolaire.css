@@ -1,0 +1,168 @@
+/* GENERAL */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+/* HERO IMAGE */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 74, 124, 0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 46px;
+  margin-bottom: 15px;
+}
+
+.hero-overlay p {
+  font-size: 18px;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+/* FEATURES UNDER HERO */
+.hero-features {
+  padding: 40px 20px;
+  background: #f5f7fa;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 14px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+}
+
+.feature span {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.feature p {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* ABOUT */
+.about,
+.objectives,
+.contact {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.about h2,
+.objectives h2,
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0a4a7c;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* OBJECTIVES CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* CONTACT */
+/* FOOTER */
+.footer {
+  background:white;
+  color:rgb(0, 0, 0);
+  padding:50px 10%;
+  text-align:center;
+}
+
+.footer-content p { margin:5px 0; }
+/* RESPONSIVE */
+@media (max-width:768px){
+  .hero-overlay h1 {
+    font-size: 32px;
+  }
+  .features {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,260 @@
+/* RESET */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HERO */
+.hero-acu{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+
+  /* 🔥 نفس style الصورة */
+ /*background-image: url("./assets/images/tonimage.jpg");*/
+  background-size: cover;
+  background-position: center;
+}
+
+/* OVERLAY */
+.hero-overlay{
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.3)
+  );
+}
+
+/* CONTENT */
+.hero-content{
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  color: white;
+}
+
+/* BADGE */
+.badge{
+  background: white;
+  color: black;
+  padding:6px 15px;
+  border-radius:20px;
+  font-size:14px;
+  display:inline-block;
+}
+
+/* TITLE */
+.hero-acu h1{
+  font-size: 60px;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.highlight{
+  color: #3b82f6;
+}
+
+/* TEXT */
+.hero-acu p{
+  font-size:18px;
+  margin-bottom:30px;
+  color:#e5e7eb;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn-hero {
+  background: #38bdf8; /* couleur bleu clair comme le form */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-hero:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+
+.btn-primary{
+  background:#2563eb;
+  color:white;
+  padding:12px 25px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn-primary:hover{
+  background:#1d4ed8;
+}
+
+.btn-secondary{
+  background:white;
+  color:black;
+  padding:12px 25px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* SECTION */
+.section{
+  padding:80px 10%;
+  text-align:center;
+}
+
+.section h2{
+  font-size:32px;
+  margin-bottom:40px;
+}
+
+/* GRID */
+.formations-grid-f{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.formation-card-g{
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.formation-card-g:hover{
+  transform:translateY(-5px);
+}
+
+/* ANIMATION */
+.fade-in{
+  opacity:0;
+  transform:translateY(30px);
+  transition:0.6s;
+}
+
+.fade-in.show{
+  opacity:1;
+  transform:translateY(0);
+}
+/* POURQUOI NOUS */
+.dark{
+  background: linear-gradient(135deg, #0f172a, #1e3a5f);
+  color: white;
+  text-align: center;
+}
+
+.dark h2{
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.advantages{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* CARD */
+.adv-card{
+  background: rgba(255,255,255,0.08);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* HOVER */
+.adv-card:hover{
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+/* FOOTER */
+.footer-section{
+  background: #ffffff;
+  color: #0c1623;
+  padding: 70px 10% 30px;
+}
+
+/* GRID */
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 40px;
+}
+
+/* LOGO */
+.logo{
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(15, 29, 75);
+}
+
+.logo span{
+  color: #3b82f6;
+}
+
+/* TITLES */
+.footer-col h4{
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+/* TEXT */
+.footer-col p{
+  margin-bottom: 10px;
+  color: #94a3b8;
+  font-size: 15px;
+}
+
+/* HOVER LINKS (optional) */
+.footer-col p:hover{
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+/* BOTTOM */
+.footer-bottom{
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #1e293b;
+  font-size: 14px;
+  color: #64748b;
+}
+.logo-df img {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 50%; /* هادي اللي كتديرو مدوّر */
+  border: 2px solid white;
+  background: white;
+  padding: 3px;
+  transition: 0.3s;
+}
+
+/* Hover animation */
+.logo-df img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #38bdf8;
+}

@@ -25,7 +25,21 @@ L'objectif était de concevoir et développer un site web moderne pour présente
 
 - `frontend/` : Application React.
 - `backend/` : Application Laravel.
+## Captures d'écran
 
+### Page d'accueil
+![Accueil](screenshots/accueil.png)
+
+### Page des formations
+![Formations](screenshots/formations.png)
+![Formations](screenshots/formation.png)
+### Contact
+![Contact](screenshots/contact.png)
+### Inscription
+![Inscription](screenshots/inscription.png)
+### Espace Admin
+![Administration](screenshots/adminlogin.png)
+![Adminidashboard](screenshots/admin-dashboard.png)
 ## Objectif
 
 Développer un site web professionnel, responsive et facile à utiliser, permettant au centre de présenter ses services et ses formations sur Internet.

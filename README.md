@@ -36,7 +36,7 @@ L'objectif était de concevoir et développer un site web moderne pour présente
 ### Contact
 ![Contact](screenshots/contact.png)
 ### Inscription
-![Inscription](screenshots/inscription.png)
+![Inscription](screenshots/inscriptionn.png)
 ### Espace Admin
 ![Administration](screenshots/adminlogin.png)
 ![Adminidashboard](screenshots/admin-dashboard.png)
